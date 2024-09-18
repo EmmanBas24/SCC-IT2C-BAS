@@ -5,10 +5,6 @@ import java.util.Scanner;
 
 
 public class MAIN {
-
-   
-    public static void main(String[] args) {
-       
         
         public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -52,7 +48,7 @@ public class MAIN {
                 break;
             case 4:
                  Salary sal = new Salary();
-                 sal.Inputsalary();
+                 Salary.Inputsalary();
                 
                 break;
             case 5:
@@ -64,13 +60,7 @@ public class MAIN {
                 System.out.println("Unexpected error.");
                 break;
         }
-    }
-        
-        
-        
-        
-        
-        
+    }  
         
         
 }
